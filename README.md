@@ -61,11 +61,11 @@ model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-uncased-
 
 # Making predictions
 
-![alt text](images/carbon.png)
+![test.py](images/carbon.png)
 
 You can also make predictions by using the provided demo which is deployed with Flask to handle the interactions with the UI.
 
-![alt text](images/demo.png)
+![script.py](images/demo.png)
 
 # How to train (Distil)BERT
 
