@@ -15,19 +15,19 @@ https://rajpurkar.github.io/SQuAD-explorer/
 
 # Installation
 
-If you are testing this on your own machine I would recommend you do the setup in a virtual environment, as not to affect the rest of your files. 
+If you are testing this on your own machine I would recommend you do the setup in a virtual environment, as not to affect the rest of your files.
 
-In Python3 you can set up a virtual environment with 
+In Python3 you can set up a virtual environment with
 
 ```bash
 python3 -m venv /path/to/new/virtual/environment
 ```
 
-Or by installing virtualenv with pip by doing 
+Or by installing virtualenv with pip by doing
 ```bash
 pip3 install virtualenv
 ```
-Then creating the environment with 
+Then creating the environment with
 ```bash
 virtualenv venv
 ```
@@ -43,13 +43,13 @@ Install the requirements with:
 pip3 install -r requirements.txt
 ```
 
-### SQuAD Fine-tuned model 
+### SQuAD Fine-tuned model
 
-The SQuAD fine-tuned model is available in my [S3 Bucket](https://distilbert-finetuned-model.s3.eu-west-2.amazonaws.com/pytorch_model.bin) or alternatively inside the model.py file you can specify the type of model you wish to use, the one I have provided, or a Hugging Face fine-tuned SQuAD model
+The SQuAD fine-tuned model is available [here](https://drive.google.com/open?id=1_hLv-jCSODObrZ3cE_vYKN0vou-7d9K4) or alternatively inside the model.py file you can specify the type of model you wish to use, the one I have provided, or a Hugging Face fine-tuned SQuAD model
 
-`distilbert-base-uncased-distilled-squad`. 
+`distilbert-base-uncased-distilled-squad`.
 
-You can do this with 
+You can do this with
 
 ```python
 model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-uncased-distilled-squad', config=config)
@@ -94,7 +94,7 @@ python run_squad.py \
   --output_dir /tmp/debug_squad/
   ```
 
-# References 
+# References
 
 - <https://github.com/huggingface/transformers>
 - <https://medium.com/huggingface/distilbert-8cf3380435b5>
