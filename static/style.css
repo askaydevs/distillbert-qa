@@ -1,0 +1,60 @@
+body{
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.main h1{
+  font-weight: lighter;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.main p{
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main input{
+  text-align: center;
+  display: block;
+  width: 320px;
+  height: 40px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.main #context{
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.result{
+  text-align: inherit;
+  display: block;
+  width: 320px;
+  height: 40px;
+  padding: 10px;
+  background: rgba(214, 234, 248, 0.5);
+  border: 10px solid rgba(255, 255, 255);
+  border-radius: 15px;
+  margin: 0 auto;
+  animation-duration: 1s;
+
+}
+
+.main #submit-btn{
+  background: rgb(41, 204, 158);
+  border: none;
+  width: 340px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 5px;
+}

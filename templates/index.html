@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="BERT based question and answer model demo">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/animate.min.css">
+    <title>Maritime Circular Question Answering</title>
+  </head>
+  <body>
+
+    <form action="/">
+      <div class="main">
+        <br>
+
+        <h1>Maritime Circular Question Answering </h1>
+        <p>Enter context:</p>
+
+        <textarea id="context" name="context" rows="8" cols="80" required></textarea>
+
+        <p>Enter question:</p>
+        <input id="question" align="center" type="text" name="question" placeholder="enter question" required>
+        {% if answer: %}
+          <div class="result animated fadeIn">{{question}}</div>
+          <div class="result animated fadeIn">{{answer}}</div>
+        {% endif %}
+
+        <br>
+
+        <button id="submit-btn" type="submit" value="Submit">Submit</button>
+
+        <br>
+
+      </div>
+    </form>
+
+  </body>
+</html>
