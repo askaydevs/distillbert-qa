@@ -46,7 +46,7 @@ pip3 install -r requirements.txt
 
 ### SQuAD Fine-tuned model
 
-The SQuAD fine-tuned model is available [here](https://drive.google.com/open?id=1_hLv-jCSODObrZ3cE_vYKN0vou-7d9K4) or Download the model by following the google drive [link](https://drive.google.com/open?id=1_hLv-jCSODObrZ3cE_vYKN0vou-7d9K4) place the downloaded model in ```model```.
+The SQuAD fine-tuned model is available [here](https://drive.google.com/open?id=1_hLv-jCSODObrZ3cE_vYKN0vou-7d9K4). Download the model by following the google drive [link](https://drive.google.com/open?id=1_hLv-jCSODObrZ3cE_vYKN0vou-7d9K4) place the downloaded model in ```model```.
 
 alternatively inside the model.py file you can specify the type of model you wish to use, the one I have provided, or a Hugging Face fine-tuned SQuAD model.
 ```python
